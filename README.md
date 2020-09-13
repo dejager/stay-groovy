@@ -1,2 +1,2 @@
 # stay-groovy
-Be groovy or leave, man.
+A groovy, low-poly Xcode MSL Playground. Be groovy or leave, man.
