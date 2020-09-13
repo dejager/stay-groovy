@@ -27,11 +27,11 @@ kernel void keepOnTruckin(texture2d<float, access::write> o[[texture(0)]],
   float tiles = 3.0;
   const float2 velocity = float2(1.0, 0.0);
   const float4 pink = float4(200, 54, 96, 255) / 255;
-  const float4 orange = float4(0, 88, 255, 255) / 255;
+  const float4 blue = float4(0, 88, 255, 255) / 255;
 
   // colors
   float4 color1 = pink;
-  float4 color2 = orange;
+  float4 color2 = blue;
 
   // coordinates
   int width = o.get_width();
